@@ -14,6 +14,8 @@ const PORT = 4390;
 app.listen(PORT, function () {
   console.log("Slack bot is up and running");
 });
+
+//old code
 app.GET('/', function (req, res) {
   //this sends the json response
   request({
